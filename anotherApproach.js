@@ -13,7 +13,7 @@ async function getDetail(){
     for(s of Data){
         const myData = await fetch(`https://api.github.com/users/${s}`,{
             headers: {
-              authorization: "token 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"
+              authorization: "token xxxxxxxxxxxxxxxxxxxxxxxx"
             }
         });
         const result = await myData.json();

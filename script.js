@@ -10,7 +10,7 @@ timeStart = Date.now();
 for(let singleName of data){
     singleDetail = fetch(`https://api.github.com/users/${singleName}`,{
         headers: {
-          authorization: "token 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"
+          authorization: "token xxxxxxxxxxxxxxxxxxxxxxxx"
         }
       }).then(x => x.json()).then(val=>{
         detail.push(val);
